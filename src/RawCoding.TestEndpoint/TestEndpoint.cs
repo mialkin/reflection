@@ -4,7 +4,7 @@ using RawCoding.EndpointPdk;
 namespace RawCoding.TestEndpoint;
 
 [Path("get", "/plugin/test")]
-public class TestEndpoint : IPluginEndpoint
+public class AnEndpoint : IPluginEndpoint
 {
     public async Task ExecuteAsync(HttpContext context)
     {
